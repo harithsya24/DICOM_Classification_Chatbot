@@ -15,7 +15,7 @@ class Config:
     CONFIDENCE_THRESHOLD = 0.5
 
     # API settings
-    API_BASE_URL = "https://dicom-classification-chatbot.up.railway.app"  # Replace with your actual Railway public URL
+    API_BASE_URL = "https://dicomclassificationchatbot-production.up.railway.app"
 
     # LLM settings
     HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY")  # Optional - free tier works without
