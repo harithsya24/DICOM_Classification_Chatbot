@@ -15,7 +15,7 @@ class Config:
     CONFIDENCE_THRESHOLD = 0.5
 
     # API settings
-    API_BASE_URL = "http://localhost:8000"
+    API_BASE_URL = "https://your-deployed-api-url.com"  # Replace with your Railway/Render URL
 
     # LLM settings
     HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY")  # Optional - free tier works without
