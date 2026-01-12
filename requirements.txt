@@ -24,3 +24,5 @@ python-dotenv>=1.0.0
 
 # Legacy support (can be removed if not needed)
 # openai>=1.0.0
+
+python-multipart
